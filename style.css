@@ -13,6 +13,11 @@ button {
     outline: none!important;
 }
 
+h2
+{
+    text-align: center;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -37,11 +42,6 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-}
-
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .bloc-lg {
@@ -99,9 +99,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
+
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -264,12 +262,10 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.voffset {
-    margin-top: 30px;
-}
+
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 .row-no-gutters {
@@ -654,10 +650,6 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -677,7 +669,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
