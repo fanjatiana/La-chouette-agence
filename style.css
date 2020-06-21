@@ -18,10 +18,13 @@ h2
     text-align: center;
 }
 
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -570,8 +573,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
-    width: 850px;
-    height: 850px;
+    
 }
 
 .lightbox-caption {
@@ -579,9 +581,9 @@ a[data-lightbox]:hover img {
     color: #FFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
-    left: 15px;
+    /*left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: 5px;*/
 }
 
 .close-lightbox {
