@@ -697,7 +697,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 20px auto;
 }
 
 h2 {
@@ -815,6 +815,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/banniere_2.jpg");
+    background-size: cover!important
 }
 
 .bg-presentation {
