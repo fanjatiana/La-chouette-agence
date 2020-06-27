@@ -1436,8 +1436,10 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
-    height: auto
+    max-width: 80%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .img-rounded {
@@ -1621,9 +1623,9 @@ h6 {
     font-size: 12px
 }
 
-p {
+/*p {
     margin: 0 0 50px
-}
+}*/
 
 .lead {
     margin-bottom: 20px;
