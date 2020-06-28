@@ -1437,7 +1437,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 80%;
+    max-width:100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
@@ -7874,6 +7874,7 @@ button.close {
     th.visible-xs {
         display: table-cell !important
     }
+
 }
 
 @media (max-width:767px) {

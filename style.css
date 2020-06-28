@@ -8,7 +8,7 @@ body {
 }
 
 a,
-button {
+button:focus {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -902,7 +902,7 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
-    .site-navigation{
+    .site-navigation {
         position: inherit;
         transform: none;
         -webkit-transform: none;
@@ -1015,10 +1015,15 @@ h4 {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
+
+    #lightbox-modal .modal-dialog img {
+    max-width: 100%;
+    margin: 0 auto;
+   
 }
 
