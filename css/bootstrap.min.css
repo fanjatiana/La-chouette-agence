@@ -104,7 +104,8 @@ sub {
 
 img {
     border: 0
-    color:#0D0D0D;
+    color:#000000;
+    background-color: #FFFFFF;
 }
 
 svg:not(:root) {
