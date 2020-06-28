@@ -571,7 +571,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-width: 40%;
+    max-width: 100%;
     margin: 0 auto;
 
     
@@ -1024,6 +1024,22 @@ h4 {
     #lightbox-modal .modal-dialog img {
     max-width: 100%;
     margin: 0 auto;
+    }
+
+    
    
 }
 
+
+@media (max-width: 320px)
+{
+    .lightbox-caption {
+    padding: 20px;
+    color: #FFF;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 5px;
+    top:260px;
+}
