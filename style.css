@@ -524,7 +524,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
+    margin:8px;
 }
 
 a[data-lightbox]:hover::before {
