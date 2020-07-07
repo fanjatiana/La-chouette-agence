@@ -1048,6 +1048,21 @@ h4 {
     {
         margin-top: 50px;
     }  
+
+    .navbar-header img {
+ 	    position: relative;
+ 	    margin-left: 10px;
+
+    }
+
+    .navbar-toggle
+    {
+    	position: absolute;
+    	right: 0;
+    	top: 30px;
+  
+    	
+    }
 }
 
 
@@ -1063,4 +1078,6 @@ h4 {
     bottom: 5px;
     top:260px;
     }
+
+
 }
