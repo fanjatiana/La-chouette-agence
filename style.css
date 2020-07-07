@@ -258,7 +258,7 @@ a:hover {
 
 
 .voffset-lg {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .row-no-gutters {
@@ -832,10 +832,10 @@ h4 {
 
 
 @media (max-width: 1024px) {
-    .bloc {
+    /*.bloc {
         padding-left: 20px;
         padding-right: 20px;
-    }
+    }*/
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -858,7 +858,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+ }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
@@ -1052,16 +1052,13 @@ h4 {
     .navbar-header img {
  	    position: relative;
  	    margin-left: 10px;
-
     }
 
     .navbar-toggle
     {
     	position: absolute;
     	right: 0;
-    	top: 30px;
-  
-    	
+    	top: 30px;  	
     }
 }
 
@@ -1078,6 +1075,4 @@ h4 {
     bottom: 5px;
     top:260px;
     }
-
-
 }
