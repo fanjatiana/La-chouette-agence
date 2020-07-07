@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background: #FFFFFF;
     overflow-x: hidden;
 }
 
@@ -720,6 +720,7 @@ h3 {
 
 h1 {
     color: #000000!important;
+    
 }
 
 h4 {
@@ -752,6 +753,10 @@ h4 {
     padding: 40px 40px 40px 40px;
 }
 
+.black-background-h1{
+    background-color: transparent;
+}
+
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -770,9 +775,10 @@ h4 {
     background-color: #000000;
 }
 
-.tc-white {
-    color: #000000!important;
-   
+.tc-black {
+    color:#FFFFFF!important;
+  
+
 }
 
 .btn-atomic-tangerine {
