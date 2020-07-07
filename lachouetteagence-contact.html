@@ -7,15 +7,10 @@
     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <link rel="canonical" href="https://fanjatiana.github.io/la-chouette-agence/lachouetteagence-contact.html"/>
     <meta name="robots" content="index,follow">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"async>
-	<link rel="stylesheet" type="text/css" href="style.css"async>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css"defer>
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css"defer> 
-	<script src="./js/jquery-2.1.0.js" defer></script>
-	<script src="./js/bootstrap.min.js" defer></script>
-	<script src="./js/blocs.js" defer></script>
-	<script src="./js/jqBootstrapValidation.js" defer></script>
-	<script src="./js/formHandler.js" defer></script>
     <title>La chouette agence-Contact</title>  
 <body>
 	<header>
@@ -24,7 +19,17 @@
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.jpg" alt="agence" height="40" /></a>
+						<img src="img/la-chouette-agence.jpg" alt="agence" height="40" />
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="index.html">Accueil</a>
+							</li>
+						</ul>
 					</div>
 				</nav>
 			</div>
@@ -36,7 +41,7 @@
 					<div class="col-sm-12">
 						<img src="img/logo.png" class="center-block" alt="logo" />
 						<h1 class="text-center hero-bloc-text tc-white">
-							Entreprise web design <br/>Lyon
+							Agence web design <br/>Lyon
 						</h1>
 					</div>
 				</div>
@@ -120,5 +125,10 @@
 			</div>
 		</div>
 	</footer>
+<script src="./js/jquery-2.1.0.js" defer></script>
+<script src="./js/bootstrap.min.js" defer></script>
+<script src="./js/blocs.js" defer></script>
+<script src="./js/jqBootstrapValidation.js" defer></script>
+<script src="./js/formHandler.js" defer></script>
 </body>
 </html>
