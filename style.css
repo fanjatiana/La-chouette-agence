@@ -23,6 +23,15 @@ a:hover {
 }
 
 
+#page-loading-blocs-notifaction {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100000;
+    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -633,13 +642,17 @@ h5,
 h6,
 p,
 label,
-a
  {
     font-family: "helvetica";
     font-weight: 400;
     color: #000000!important;
 }
 
+a
+{
+    font-family: "helvetica";
+    font-weight: 400;
+}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -1032,7 +1045,6 @@ h4 {
 
     .container
     {
-        /*margin-top: 50px;*/
         padding-bottom: 50px;
     }  
 
