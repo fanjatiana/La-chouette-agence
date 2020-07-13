@@ -1059,6 +1059,16 @@ h4 {
     	right: 0;
     	top: 30px;  	
     }
+    .black-background
+    {
+        padding: 0;
+    }
+
+    .bloc-xxl,
+    .bloc-xl,
+    .bloc-lg {
+        padding: 40px 0px;
+    }
 }
 
 
@@ -1074,4 +1084,5 @@ h4 {
     bottom: 5px;
     top:260px;
     }
+
 }
