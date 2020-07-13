@@ -67,7 +67,7 @@
 						<div class="form-group">
 							<p>
 								<label for="name">Nom:</label>
-								<input id="name" type="text" class="form-control" placeholder="Dupont" required />
+								<input id="name" type="nom" class="form-control" placeholder="Dupont" required />
 							</p>	
 						</div>
 						<div class="form-group">
@@ -79,7 +79,14 @@
 						<div class="form-group">
 							<p>
 								<label for="source">Comment nous avez-vous connu ?</label><br/>
-								<input id="source" name="renseignement" class="form-control" type="text" required />
+								<select name="source" id="source" required>
+									<option value=""></option>
+									<option value="google">google</option>
+									<option value="réseaux-sociaux">réseaux sociaux</option>
+									<option value="connaissances">connaissances</option>
+									<option value="publicité">publicité</option>
+									<option value="autre">autre</option>
+								</select>
 							</p>
 						</div>
 						<div class="form-group">
