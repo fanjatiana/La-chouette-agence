@@ -1,4 +1,4 @@
-*!
+/*!
  * @fileOverview TouchSwipe - jQuery Plugin
  * @version 1.6.18
  *
@@ -10,7 +10,7 @@
  * Copyright (c) 2010-2015 Matt Bryson
  * Dual licensed under the MIT or GPL Version 2 licenses.
  *
- *
+ */
 ! function(factory) {
     "function" == typeof define && define.amd && define.amd.jQuery ? define(["jquery"], factory) : factory("undefined" != typeof module && module.exports ? require("jquery") : jQuery)
 }(function($) {
